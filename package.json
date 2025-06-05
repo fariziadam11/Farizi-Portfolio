@@ -14,11 +14,15 @@
     "@tailwindcss/vite": "^4.1.8",
     "framer-motion": "^12.16.0",
     "lucide-react": "^0.513.0",
+    "motion": "^12.16.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-error-boundary": "^6.0.0",
     "react-router-dom": "^7.6.2",
+    "react-scripts": "^5.0.1",
+    "react-window": "^1.8.11",
     "tailwindcss": "^4.1.8",
+    "web-vitals": "^5.0.2",
     "yup": "^1.6.1"
   },
   "devDependencies": {
