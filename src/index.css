@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+/* Smooth transitions for theme changes */
+html {
+  @apply transition-colors duration-300 ease-in-out;
+}
+
+/* Base styles */
+body {
+  @apply m-0 font-sans bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Code block styling */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  @apply bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-sm transition-colors duration-300;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  @apply w-2 h-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800 transition-colors duration-300;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 dark:bg-gray-600 rounded-full hover:bg-gray-500 dark:hover:bg-gray-500 transition-colors duration-300;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles */
+*:focus {
+  @apply outline-none ring-2 ring-blue-500 dark:ring-blue-400 rounded transition-colors duration-300;
+}
+
+/* Remove tap highlight on mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Add transition to all elements that might change with theme */
+* {
+  @apply transition-colors duration-300;
+}
+
+/* Ensure images and SVGs maintain their appearance in dark mode */
+img, svg {
+  @apply transition-opacity duration-300;
+}
+
+/* Add smooth transition for borders */
+.border {
+  @apply transition-colors duration-300;
+}
+
+/* Add smooth transition for shadows */
+.shadow {
+  @apply transition-shadow duration-300;
+}
