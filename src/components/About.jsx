@@ -170,7 +170,7 @@ const About = () => {
             About Me
           </motion.span>
           <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Get to Know Me Better
+            Get to Know Me Better <span className="text-blue-600 dark:text-blue-300">👋</span>
           </h2>
           <p className="max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
             Passionate software engineer with a knack for creating elegant solutions to complex problems
