@@ -134,7 +134,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="p-3 sm:p-4 text-left font-mono text-xs sm:text-sm text-green-400">
-              <div><span className="text-purple-400">const</span> <span className="text-blue-400">developer</span> = {"{"};</div>
+              <div><span className="text-purple-400">const</span> <span className="text-blue-400">developer</span> = {"{"}</div>
               <div className="pl-4"><span className="text-yellow-400">name</span>: <span className="text-green-300">"Farizi Adam"</span>,</div>
               <div className="pl-4"><span className="text-yellow-400">skills</span>: [<span className="text-green-300">"React"</span>, <span className="text-green-300">"JavaScript"</span>, <span className="text-green-300">"UI/UX"</span>],</div>
               <div className="pl-4"><span className="text-yellow-400">passion</span>: <span className="text-green-300">"Building amazing web experiences"</span></div>
