@@ -28,6 +28,16 @@ const projects = [
       sourceLink: 'https://github.com/fariziadam11/Budget-Financial',
       categories: ['frontend', 'backend', 'react'],
       stack: ['React.js', 'Tailwind CSS', 'TypeScript']
+    },
+    {
+      id: 4,
+      title: 'Simple Task',
+      description: 'A simple task management app to help you manage your tasks.',
+      image: '/images/simple-task.png',
+      demoLink: 'https://simplecrudtask.netlify.app',
+      sourceLink: 'https://github.com/fariziadam11/simple-crud-task',
+      categories: ['frontend', 'backend', 'react'],
+      stack: ['React.js', 'Tailwind CSS', 'TypeScript'] 
     }
   ];
   
