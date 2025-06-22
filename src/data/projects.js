@@ -18,6 +18,16 @@ const projects = [
       sourceLink: 'https://github.com/fariziadam11/AnonQ',
       categories: ['frontend', 'backend', 'react'],
       stack: ['React.js', 'Tailwind CSS', 'TypeScript', 'Supabase']
+    },
+    {
+      id: 3,
+      title: 'Budget Tracker',
+      description: 'A budget tracker app to help you manage your finances.',
+      image: '/images/budget.png',
+      demoLink: '',
+      sourceLink: 'https://github.com/fariziadam11/Budget-Financial',
+      categories: ['frontend', 'backend', 'react'],
+      stack: ['React.js', 'Tailwind CSS', 'TypeScript']
     }
   ];
   
